@@ -17,5 +17,6 @@
 }
 
 .mountaineer {
+  display: block;
   margin: auto;
 }
