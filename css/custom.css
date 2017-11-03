@@ -21,4 +21,10 @@
 	height: 45px;
 }
 
-img {
+.mountaineer {
+  display: block;
+  margin: auto;
+  padding-top: 5%;
+  height: 30%;
+  width: 30%;
+}
