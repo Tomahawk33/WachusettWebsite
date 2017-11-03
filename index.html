@@ -16,11 +16,7 @@
 	
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		 <div class="navbar-brand">
-		  <img src="img/districtlogo.jpg" class="brand" alt="WRHS">
-		    WRHS
-		 </div>  
-		<a class="navbar-brand" href="#">Navbar</a>
+		  <a class="navbar-brand" href="#">Navbar</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -29,21 +25,37 @@
 		      <li class="nav-item active">
 			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 		      </li>
-		      <li class="nav-item">
-			<a class="nav-link" href="#">Features</a>
-		      </li>
-		      <li class="nav-item">
-			<a class="nav-link" href="#">Pricing</a>
-		      </li>
 		      <li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			  Dropdown link
 			</a>
-			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			  <a class="dropdown-item" href="#">Action</a>
-			  <a class="dropdown-item" href="#">Another action</a>
-			  <a class="dropdown-item" href="#">Something else here</a>
-			</div>
+			<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			  <li><a class="dropdown-item" href="#">Action</a></li>
+			  <li><a class="dropdown-item" href="#">Another action</a></li>
+			  <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
+			    <ul class="dropdown-menu">
+			      <li><a class="dropdown-item" href="#">Submenu action</a></li>
+			      <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+			      <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+				  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+				</ul>
+			      </li>
+			      <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="#">Subsubmenu action</a></li>
+				  <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+				</ul>
+			      </li>
+
+
+
+			    </ul>
+			  </li>
+			</ul>
 		      </li>
 		    </ul>
 		  </div>
@@ -52,9 +64,12 @@
 		<img src="img/mountaineer.png" alt="Mountaineer" class="mountaineer" align="center">
 	
 		<!--script src="js/custom.js"></script-->
-		<script src="js/bootstrap.js"></script>
 		<script src="js/jquery-slim.min.js"></script>
 		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/custom.js"></script>
+
+
 		
 	</body>
 
